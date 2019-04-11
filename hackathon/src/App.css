@@ -1,0 +1,89 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.App-title {
+  display: inline-block;
+  width: 100%;
+  margin: 80px 0 0 0;
+  float: left;
+  position: relative;
+  color: #fff;
+}
+h1 {
+  font-size: 52px;
+  margin: 0;
+}
+
+p {
+  font-weight: 200;
+  opacity: .5;
+}
+
+.App-title-content {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+
+
+.App-card-list {
+  display: inline-block;
+  width: 100%;
+  float: right;
+  margin: 0;
+  min-height: 75vh;
+  white-space: normal;
+  overflow-x: scroll;
+  margin-top: -70px;
+}
+
+.card {
+  margin: 60px 30px;
+  display: inline-block;
+}
+.card-body {
+  white-space: normal;
+}
+
+
+.designer-link {
+  display:inline-block;
+  padding-top:40px;
+}
+
+/* Designer credit: https://dribbble.com/shots/1978243-Latest-News */
+
